@@ -1,3 +1,15 @@
+/**
+Name: John Wesley Agojo
+johnwesley_agojo@student.uml.edu
+
+Date: 11/26/2025
+File: styles.css
+Assignment:
+    This assignment requires the creation of a dynamic multiplication table generator
+    PART 1: Implementing jQuery Validation plugin for client-side validation.
+    Part 2: Adding jQuery UI sliders for input selection along with tabs for multiple tables.
+**/
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -35,7 +47,6 @@ form input[type="number"] {
     box-sizing: border-box;
 }
 
-/* Slider styling */
 .slider {
     margin-top: 10px;
     margin-bottom: 15px;
@@ -62,7 +73,6 @@ form button:hover {
     color: red;
 }
 
-/* jQuery Validation error styling */
 label.error {
     color: #d9534f;
     font-size: 14px;
@@ -80,8 +90,6 @@ input.error {
 input.valid {
     border-color: #5cb85c;
 }
-
-/* Tabs styling */
 #tabs {
     margin: 20px auto;
     max-width: 1200px;
@@ -93,7 +101,6 @@ input.valid {
     padding: 10px;
 }
 
-/* Delete controls styling */
 #delete-controls {
     text-align: center;
     margin: 20px 0;
